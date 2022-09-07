@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MangaMasters</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Manuel Sáez">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/fc259da1e2.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <div class="nav__container">
+                <a href="index.html" class="nav__container-link"><img src="logo.png" alt="MangaMasters"></a>
+                <div class="nav__container-searchbar">
+                    <input type="text" placeholder="Buscar Manga"class="nav__container-input">
+                    <span class="nav__container-button"><i class="fa-solid fa-magnifying-glass"></i></span>
+                </div>
+                <ul class="nav__container-ul">
+                    <li class="nav__container-li">
+                        <div class="nav__container-dm">
+                            <input type="checkbox" class="nav__container-checkbox" id="darkmode">
+                            <label for="darkmode" class="nav__container-label">
+                                <i class="fa-regular fa-sun"></i>
+                                <i class="fa-solid fa-moon"></i>
+                                <div class="nav__container-ball"></div>
+                            </label>
+                        </div>
+                    </li>
+                    <li class="nav__container-li">
+                        <i class="fa-solid fa-star"></i>
+                        <a href="#">Mis Favoritos</a>
+                    </li>
+                    <li class="nav__container-li">
+                        <i class="fa-solid fa-user"></i>
+                        <a href="#">Perfil</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <section class="manga__list">
+            <h1>Lecturas disponibles</h1>
+            <!--<div class="manga__list-item">
+                <div class="manga__list-img">
+                    <img src="#" alt="short">
+                </div>
+                <div class="manga__list-title">
+                    <a href="#"><b>Name</b></a>
+                </div>
+                <div class="manga__list-chapter">
+                    <a href="#">Chapter x</a>
+                </div>
+                <div class="manga__list-nofav">
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="manga__list-fav">
+                     <i class="fa-solid fa-star"></i>
+                </div>
+            </div>-->
+                <div class="manga__list-container">
+                    <div class="manga__list-item">
+                        <div class="manga__list-img">
+                            <img src="manghwas/batb.jpg" alt="batb">
+                        </div>
+                        <div class="manga__list-title">
+                            <a href="idpages/batb/batb.html"><b>Beauty and The Beasts</b></a>
+                        </div>
+                        <div class="manga__list-chapter">
+                            <a href="idpages/batb/chapters/chapter291.html">Chapter 291</a>
+                        </div>
+                        <div class="manga__list-nofav">
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="manga__list-fav">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="manga__list-item">
+                        <div class="manga__list-img">
+                            <img src="manghwas/tog.jpg" alt="tog">
+                        </div>
+                        <div class="manga__list-title">
+                            <a href="#"><b>Tower of God</b></a>
+                        </div>
+                        <div class="manga__list-chapter">
+                            <a href="#">Chapter X</a>
+                        </div>
+                        <div class="manga__list-nofav">
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="manga__list-fav">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="manga__list-item">
+                        <div class="manga__list-img">
+                            <img src="manghwas/sl.jpg" alt="sl">
+                        </div>
+                        <div class="manga__list-title">
+                            <a href="#"><b>Solo Leveling</b></a>
+                        </div>
+                        <div class="manga__list-chapter">
+                            <a href="#">Chapter x</a>
+                        </div>
+                        <div class="manga__list-nofav">
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="manga__list-fav">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="manga__list-item">
+                        <div class="manga__list-img">
+                            <img src="manghwas/csm.jpg" alt="csm">
+                        </div>
+                        <div class="manga__list-title">
+                            <a href="#"><b>Chainsaw-Man</b></a>
+                        </div>
+                        <div class="manga__list-chapter">
+                            <a href="#">Chapter x</a>
+                        </div>
+                        <div class="manga__list-nofav">
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="manga__list-fav">
+                             <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </body>
+</html>
